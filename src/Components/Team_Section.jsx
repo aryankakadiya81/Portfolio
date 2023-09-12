@@ -1,5 +1,5 @@
 import React from 'react'
-// import Img from '../../assets/img1.jpg'
+import Img from '../Assats/Vrushabh.jpg'
 
 const Team_Section = () => {
     return (
@@ -8,25 +8,23 @@ const Team_Section = () => {
                 <div className="flex items-center justify-center text-center bg-no-repeat bg-cover h-full md:bg-center">
                     <div className="flex flex-col p-2 m-2 max-w-7xl ">
                         <div className="text-xl md:text-3xl font-medium my-10">Meet Our Team</div>
-                        <div className="text-sm mx-2 md:text-xl text-stone-700">
-                            Meet the team member who have contributed their designs for this websites.
+                        <div className="text-sm mx-36 md:text-xl text-stone-700">
+                        Success begins with someone's efforts and hard work. If a person has a goal and does not try to fulfil his goal, then he can never achieve success.  
                         </div>
-                        <div className="text-sm mx-2 md:text-xl mb-2 text-stone-700">
-                            Resource person of Tailblocks communinty
-                        </div>
+                        
                         <div className="flex items-center justify-center md:flex-row flex-col space-x-4 space-y-2 p-2">
                             <div className="flex-col px-6 py-2 ">
                                 <div className="h-40 w-60 rounded-2xl overflow-hidden bg-gray-200">
                                     <img
-                                        src="https://source.unsplash.com/300x300/?man,businessman"
+                                        src={Img}
                                         alt=""
                                         className=""
                                     />
                                 </div>
                                 <div className="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">
-                                    John Doe
+                                    Vrushabh Satasiya
                                 </div>
-                                <div className=" italic text-gray-500">CEO, Tailblocks</div>
+                                <div className=" italic text-gray-500">Partner</div>
                             </div>
                             <div className="flex-col px-6 py-2 ">
                                 <div className="h-40 w-60 rounded-2xl overflow-hidden bg-gray-200">

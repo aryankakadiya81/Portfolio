@@ -1,5 +1,5 @@
 import React from 'react'
-// import Img from '../assets/img1.jpg'
+import Img from '../Assats/Aryan.jpg'
 
 const Hero_Section = () => {
     return (
@@ -12,12 +12,12 @@ const Hero_Section = () => {
             >
                 <div className="flex flex-col items-center ">
                     
-                    <div className="flex flex-col justify-center items-center text-center  max-w-7xl my-8 py-4 px-10">
+                    <div className="flex flex-col justify-center items-center text-centermax-w-7xl my-8 py-4 px-10">
                     <div className='my-12'>
-                    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2BL0MW95NyLzVNj_E4U1SIrG5Qd_jzqH2XldvOIPw&s' className='rounded-full h-64 w-64'></img>
+                    <img src={Img} className='rounded-full w-72'></img>
                     </div>
                        
-                        <div className="flex flex-col text-gray-700mt-5 hover:skew-x-3">
+                        <div className="flex flex-col text-gray-700mt-5 hover:skew-x-3 text-center">
                             <h1 className="text-4xl md:text-[50px] font-semibold">
                                 Hello I'm ARYAN KAKADIYA
                             </h1>
@@ -25,8 +25,8 @@ const Hero_Section = () => {
                                 Designer - Developer - Freelancer
                             </p>
                         </div>
-                        <p className="mt-4 text-md md:w-[52%] tracking-wide leading-7 hover:skew-x-3">
-                        I'm a Front-End Developer for ChowNow in Los Angeles, CA.
+                        <p className="mt-4 text-md md:w-[52%] tracking-wide leading-7 hover:skew-x-3 text-center">
+                        I'm a Full Stack Developer in Surat, Gujarat.
                         I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
                         Let's make something special.
                         </p>

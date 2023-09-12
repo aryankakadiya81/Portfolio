@@ -10,9 +10,9 @@ const Contect_Section = () => {
                 }}>
                     <div className="flex flex-col justify-center mt-10 w-[90%] space-y-28 lg:space-y-24 max-w-7xl  ">
                         <div className="flex flex-col justify-center items-center text-center">
-                            <div className="animate-bounce text-xl md:text-3xl font-bold uppercase my-3">
+                            <p className="text-xl md:text-3xl font-bold uppercase my-3">
                                  Contact Us
-                            </div>
+                            </p>
                             <div className="text-sm md:text-xl font-medium">
                                 Get in touch and let us know how we can help.
                             </div>

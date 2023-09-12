@@ -49,6 +49,9 @@ const Footer = () => {
                     
                     
                 </div>
+                <div className='bg-black w-full text-white text-center py-10 font-bold text-xl'>
+                Copirigt is Reserverd by @ARYAN KAKADIYA
+                </div>
 
             </div>
         </>
