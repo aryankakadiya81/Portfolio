@@ -8,7 +8,7 @@ const Team_Section = () => {
                 <div className="flex items-center justify-center text-center bg-no-repeat bg-cover h-full md:bg-center">
                     <div className="flex flex-col p-2 m-2 max-w-7xl ">
                         <div className="text-xl md:text-3xl font-medium my-10">Meet Our Team</div>
-                        <div className="text-sm mx-36 md:text-xl text-stone-700">
+                        <div className="text-sm lg:mx-36 md:mx-28 md:text-xl text-stone-700">
                         Success begins with someone's efforts and hard work. If a person has a goal and does not try to fulfil his goal, then he can never achieve success.  
                         </div>
                         

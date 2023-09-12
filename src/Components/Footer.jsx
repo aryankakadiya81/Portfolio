@@ -38,7 +38,7 @@ const Footer = () => {
                                 <h1 className="text-black pb-[38px] font-sans uppercase font-normal tracking-wider underline underline-offset-[12px] decoration-red-500/90">
                                     get in touch</h1>
                             </div>
-                            <p className="space-x-3"> <i className="fa fa-home text-[17px] " /></p>
+                            <p className="space-x-3"> <i className="fa fa-home text-[17px]" /></p>
                             <div className="leading-7 text-black">
                                 <p> NH-70 Chandigarh-Ludhiana Highway, <br /> Mohali, Punjab (INDIA) <br /> General Helpline
                                     No:+91 987-6543-210 </p>
